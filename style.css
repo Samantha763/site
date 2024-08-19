@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    background-color: white;
+    color: rgba(0, 135, 191, 1);
+    font-family: "Gupter", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+header {
+    font-size: 50px;
+    border-bottom: 5px solid black;
+}
+.chamada {
+    color: white;
+    background-color: rgba(0, 135, 191, 1);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.image {
+    margin: 50px;
+    height: 300px;
+}
+.qualquercoisa {
+    margin-right: 5%;
+    margin-top: 150px
+}
+p {
+    font-size: 20px;
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-livros {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria-livros img {
+    opacity: 0.5;
+    height: 320px
+}
+
+.categoria-livros img:hover {
+    opacity: 1.0;
+    border: 2px solid black;
+}
